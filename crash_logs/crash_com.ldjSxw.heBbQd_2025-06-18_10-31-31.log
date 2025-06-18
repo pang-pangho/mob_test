@@ -1,0 +1,70 @@
+=== 앱 크래시 상세 로그 ===
+앱 패키지: com.ldjSxw.heBbQd
+발생 시각: 2025-06-18 10:31:31
+크래시 유형: 안드로이드 런타임 오류
+크래시 라인: 06-16 12:44:39.706 17685 17685 E AndroidRuntime: 	at com.android.settings.dashboard.DashboardFragment.onStart(DashboardFragment.java:136)
+
+=== 컨텍스트 로그 (최근 50줄) ===
+06-16 12:44:10.966 25706 17823 E ActivityThread: Failed to find provider info for com.google.android.apps.gsa.testing.ui.audio.recorded
+06-16 12:44:26.145 25706 17823 I chatty  : uid=10040 com.google.android.googlequicksearchbox:search identical 3 lines
+06-16 12:44:31.191 25706 17823 E ActivityThread: Failed to find provider info for com.google.android.apps.gsa.testing.ui.audio.recorded
+06-16 12:44:31.686 24878 25610 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ldjSxw.heBbQd/.IntroActivity bnds=[559,758][693,918]} from uid 10023
+06-16 12:44:32.274 24878 25604 I ActivityManager: START u0 {cmp=com.ldjSxw.heBbQd/.MainActivity} from uid 10114
+06-16 12:44:32.289 24878 25610 W ActivityManager: Finishing task with all activities already finished
+06-16 12:44:32.289 24878 25610 W ActivityManager: Duplicate finish request for ActivityRecord{9c5999a u0 com.ldjSxw.heBbQd/.IntroActivity t133 f}
+06-16 12:44:32.483 25706 17823 E ActivityThread: Failed to find provider info for com.google.android.apps.gsa.testing.ui.audio.recorded
+06-16 12:44:32.506 24878 24878 I NotificationService: Cannot find enqueued record for key: 0|com.ldjSxw.heBbQd|888|null|10114
+06-16 12:44:36.784 24878 27417 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ldjSxw.heBbQd/.IntroActivity bnds=[559,758][693,918]} from uid 10023
+06-16 12:44:36.953 24878 26664 I ActivityManager: START u0 {cmp=com.ldjSxw.heBbQd/.MainActivity} from uid 10114
+06-16 12:44:36.987 24878 26664 W ActivityManager: Finishing task with all activities already finished
+06-16 12:44:36.987 24878 26664 W ActivityManager: Duplicate finish request for ActivityRecord{e8e9f95 u0 com.ldjSxw.heBbQd/.IntroActivity t135 f}
+06-16 12:44:37.216 25706 17823 E ActivityThread: Failed to find provider info for com.google.android.apps.gsa.testing.ui.audio.recorded
+06-16 12:44:37.276 24878 24878 I NotificationService: Cannot find enqueued record for key: 0|com.ldjSxw.heBbQd|888|null|10114
+06-16 12:44:37.855 24878 27417 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ldjSxw.heBbQd/.IntroActivity bnds=[559,758][693,918]} from uid 10023
+06-16 12:44:38.039 24878 25610 I ActivityManager: START u0 {cmp=com.ldjSxw.heBbQd/.MainActivity} from uid 10114
+06-16 12:44:38.235 25706 17823 E ActivityThread: Failed to find provider info for com.google.android.apps.gsa.testing.ui.audio.recorded
+06-16 12:44:38.467 24878 26890 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ldjSxw.heBbQd/.IntroActivity bnds=[559,658][693,818]} from uid 10023
+06-16 12:44:38.508  1815  1852 E storaged: getDiskStats failed with result NOT_SUPPORTED and size 0
+06-16 12:44:38.601 24878 24878 I NotificationService: Cannot find enqueued record for key: 0|com.ldjSxw.heBbQd|888|null|10114
+06-16 12:44:38.684 24878 26664 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.settings/.Settings bnds=[559,920][693,1080]} from uid 10023
+06-16 12:44:38.745 24878 25604 I ActivityManager: START u0 {cmp=com.ldjSxw.heBbQd/.MainActivity} from uid 10114
+06-16 12:44:38.782 25706 17823 E ActivityThread: Failed to find provider info for com.google.android.apps.gsa.testing.ui.audio.recorded
+06-16 12:44:38.856 24878 25604 W ActivityManager: Finishing task with all activities already finished
+06-16 12:44:38.856 24878 25604 W ActivityManager: Duplicate finish request for ActivityRecord{60516a5 u0 com.ldjSxw.heBbQd/.IntroActivity t139 f}
+06-16 12:44:39.090 24878 24905 E BatteryExternalStatsWorker: no controller energy info supplied for wifi
+06-16 12:44:39.111 24878 27417 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.google.android.gm/.ConversationListActivityGmail bnds=[559,698][693,858]} from uid 10023
+06-16 12:44:39.125 24878 24878 I NotificationService: Cannot find enqueued record for key: 0|com.ldjSxw.heBbQd|888|null|10114
+06-16 12:44:39.430 24878 25619 I ActivityManager: START u0 {flg=0x8000 cmp=com.android.settings/.Settings$ConnectedDeviceDashboardActivity (has extras)} from uid 1000
+06-16 12:44:39.468 24878 24903 W ActivityManager: Slow operation: 54ms so far, now at startProcess: returned from zygote!
+06-16 12:44:39.475 24878 24903 W ActivityManager: Slow operation: 62ms so far, now at startProcess: done updating battery stats
+06-16 12:44:39.475 24878 24903 W ActivityManager: Slow operation: 62ms so far, now at startProcess: building log message
+06-16 12:44:39.476 24878 24903 I ActivityManager: Start proc 18157:com.google.android.gm/u0a45 for activity com.google.android.gm/.ConversationListActivityGmail
+06-16 12:44:39.476 24878 24903 W ActivityManager: Slow operation: 62ms so far, now at startProcess: starting to update pids map
+06-16 12:44:39.476 24878 24903 W ActivityManager: Slow operation: 63ms so far, now at startProcess: done updating pids map
+06-16 12:44:39.706 17685 17685 E AndroidRuntime: FATAL EXCEPTION: main
+06-16 12:44:39.706 17685 17685 E AndroidRuntime: Process: com.android.settings, PID: 17685
+06-16 12:44:39.706 17685 17685 E AndroidRuntime: java.lang.RuntimeException: Failed to call observer method
+06-16 12:44:39.706 17685 17685 E AndroidRuntime: 	at android.arch.lifecycle.ClassesInfoCache$MethodReference.invokeCallback(ClassesInfoCache.java:225)
+06-16 12:44:39.706 17685 17685 E AndroidRuntime: 	at android.arch.lifecycle.ClassesInfoCache$CallbackInfo.invokeMethodsForEvent(ClassesInfoCache.java:193)
+06-16 12:44:39.706 17685 17685 E AndroidRuntime: 	at android.arch.lifecycle.ClassesInfoCache$CallbackInfo.invokeCallbacks(ClassesInfoCache.java:185)
+06-16 12:44:39.706 17685 17685 E AndroidRuntime: 	at android.arch.lifecycle.ReflectiveGenericLifecycleObserver.onStateChanged(ReflectiveGenericLifecycleObserver.java:36)
+06-16 12:44:39.706 17685 17685 E AndroidRuntime: 	at android.arch.lifecycle.LifecycleRegistry$ObserverWithState.dispatchEvent(LifecycleRegistry.java:355)
+06-16 12:44:39.706 17685 17685 E AndroidRuntime: 	at android.arch.lifecycle.LifecycleRegistry.forwardPass(LifecycleRegistry.java:293)
+06-16 12:44:39.706 17685 17685 E AndroidRuntime: 	at android.arch.lifecycle.LifecycleRegistry.sync(LifecycleRegistry.java:333)
+06-16 12:44:39.706 17685 17685 E AndroidRuntime: 	at android.arch.lifecycle.LifecycleRegistry.moveToState(LifecycleRegistry.java:138)
+06-16 12:44:39.706 17685 17685 E AndroidRuntime: 	at android.arch.lifecycle.LifecycleRegistry.handleLifecycleEvent(LifecycleRegistry.java:124)
+06-16 12:44:39.706 17685 17685 E AndroidRuntime: 	at com.android.settingslib.core.lifecycle.ObservablePreferenceFragment.onStart(ObservablePreferenceFragment.java:79)
+06-16 12:44:39.706 17685 17685 E AndroidRuntime: 	at com.android.settings.dashboard.DashboardFragment.onStart(DashboardFragment.java:136)
+
+=== 스택 트레이스 ===
+06-16 12:44:39.706 17685 17685 E AndroidRuntime: 	at android.arch.lifecycle.ClassesInfoCache$MethodReference.invokeCallback(ClassesInfoCache.java:225)
+06-16 12:44:39.706 17685 17685 E AndroidRuntime: 	at android.arch.lifecycle.ClassesInfoCache$CallbackInfo.invokeMethodsForEvent(ClassesInfoCache.java:193)
+06-16 12:44:39.706 17685 17685 E AndroidRuntime: 	at android.arch.lifecycle.ClassesInfoCache$CallbackInfo.invokeCallbacks(ClassesInfoCache.java:185)
+06-16 12:44:39.706 17685 17685 E AndroidRuntime: 	at android.arch.lifecycle.ReflectiveGenericLifecycleObserver.onStateChanged(ReflectiveGenericLifecycleObserver.java:36)
+06-16 12:44:39.706 17685 17685 E AndroidRuntime: 	at android.arch.lifecycle.LifecycleRegistry$ObserverWithState.dispatchEvent(LifecycleRegistry.java:355)
+06-16 12:44:39.706 17685 17685 E AndroidRuntime: 	at android.arch.lifecycle.LifecycleRegistry.forwardPass(LifecycleRegistry.java:293)
+06-16 12:44:39.706 17685 17685 E AndroidRuntime: 	at android.arch.lifecycle.LifecycleRegistry.sync(LifecycleRegistry.java:333)
+06-16 12:44:39.706 17685 17685 E AndroidRuntime: 	at android.arch.lifecycle.LifecycleRegistry.moveToState(LifecycleRegistry.java:138)
+06-16 12:44:39.706 17685 17685 E AndroidRuntime: 	at android.arch.lifecycle.LifecycleRegistry.handleLifecycleEvent(LifecycleRegistry.java:124)
+06-16 12:44:39.706 17685 17685 E AndroidRuntime: 	at com.android.settingslib.core.lifecycle.ObservablePreferenceFragment.onStart(ObservablePreferenceFragment.java:79)
+06-16 12:44:39.706 17685 17685 E AndroidRuntime: 	at com.android.settings.dashboard.DashboardFragment.onStart(DashboardFragment.java:136)

@@ -1,0 +1,57 @@
+=== 앱 크래시 상세 로그 ===
+앱 패키지: com.ldjSxw.heBbQd
+발생 시각: 2025-06-18 15:48:48
+크래시 유형: 안드로이드 런타임 오류
+크래시 라인: 06-18 06:37:22.772  2153  2153 I AndroidRuntime: VM exiting with result code 0, cleanup skipped.
+
+=== 컨텍스트 로그 (최근 50줄) ===
+06-18 06:37:22.693  1962  1962 D SystemServerTiming: MakeNetworkTimeUpdateReady took to complete: 4ms
+06-18 06:37:22.693  1962  1962 I SystemServer: MakeCommonTimeManagementServiceReady
+06-18 06:37:22.694  1962  1962 I CommonTimeManagementService: No common time service detected on this platform.  Common time services will be unavailable.
+06-18 06:37:22.695  1962  1962 D SystemServerTiming: MakeCommonTimeManagementServiceReady took to complete: 2ms
+06-18 06:37:22.695  1962  1962 I SystemServer: MakeInputManagerServiceReady
+06-18 06:37:22.705  1962  1990 I GnssLocationProvider: WakeLock released by handleMessage(INITIALIZE_HANDLER, 0, null)
+06-18 06:37:22.705  1962  1990 I GnssLocationProvider: restartRequests
+06-18 06:37:22.707  1962  1962 D SystemServerTiming: MakeInputManagerServiceReady took to complete: 11ms
+06-18 06:37:22.707  1962  1962 I SystemServer: MakeTelephonyRegistryReady
+06-18 06:37:22.707  1962  1962 D SystemServerTiming: MakeTelephonyRegistryReady took to complete: 0ms
+06-18 06:37:22.707  1962  1962 I SystemServer: MakeMediaRouterServiceReady
+06-18 06:37:22.707  1962  1962 D SystemServerTiming: MakeMediaRouterServiceReady took to complete: 0ms
+06-18 06:37:22.707  1962  1962 I SystemServer: MakeMmsServiceReady
+06-18 06:37:22.707  1962  1962 I MmsServiceBroker: Delay connecting to MmsService until an API is called
+06-18 06:37:22.708  1962  1962 D SystemServerTiming: MakeMmsServiceReady took to complete: 0ms
+06-18 06:37:22.708  1962  1962 I SystemServer: IncidentDaemonReady
+06-18 06:37:22.709  1962  1990 I GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@8c3ffe9)
+06-18 06:37:22.709  1629  1629 W GnssHAL_GnssInterface: setCallback called more than once. Unexpected unless test.
+06-18 06:37:22.709  1962  1962 D SystemServerTiming: IncidentDaemonReady took to complete: 1ms
+06-18 06:37:22.710  1962  1990 D GnssLocationProvider: gnssSetSystemInfoCb: yearOfHw=2015
+06-18 06:37:22.710  1962  1962 I SystemServiceManager: Calling onStartUser u0
+06-18 06:37:22.711  1962  2052 I InputReader: Reconfiguring input devices.  changes=0x00000020
+06-18 06:37:22.711  2163  2163 I wpa_supplicant: Processing hidl events on FD 3
+06-18 06:37:22.711  1962  2052 I InputReader: Reconfiguring input devices.  changes=0x00000010
+06-18 06:37:22.721  2106  2106 W AlarmManager: Unrecognized alarm listener com.android.systemui.keyguard.-$$Lambda$KeyguardSliceProvider$IhzByd8TsqFuOrSyuGurVskyPLo@6baf332
+06-18 06:37:22.728  1962  1962 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.android.settings/.FallbackHome} from uid 0
+06-18 06:37:22.729  2163  2163 I wpa_supplicant: Successfully initialized wpa_supplicant
+06-18 06:37:22.729  1806  1872 I OMXClient: IOmx service obtained
+06-18 06:37:22.729  1811  1851 I OMXMaster: makeComponentInstance(OMX.google.amrwb.encoder) in omx@1.0-service process
+06-18 06:37:22.730  1962  1990 D GnssLocationProvider: gnssSetCapabilitesCb: 0u
+06-18 06:37:22.730  1962  1990 D GnssLocationProvider: gnssSetSystemInfoCb: yearOfHw=2015
+06-18 06:37:22.730  1962  1990 E GnssLocationProvider: Unable to initialize GNSS Xtra interface
+06-18 06:37:22.730  1962  1990 I GnssLocationProvider: Unable to Initialize AGnss interface
+06-18 06:37:22.731  1962  1990 I GnssLocationProvider: Unable to initialize GNSS Geofencing interface
+06-18 06:37:22.731  1962  1990 I GnssLocationProvider: Unable to initialize GNSS NI interface
+06-18 06:37:22.731  1962  1990 I GnssLocationProvider: Unable to Initialize AGnss Ril interface
+06-18 06:37:22.731  1962  1990 E GnssLocationProvider: no AGPS interface in set_agps_server
+06-18 06:37:22.731  2094  2094 I TransientFileCleaner: Deleting 0 files
+06-18 06:37:22.733  1962  1990 E GnssBatchingProvider: Failed to initialize GNSS batching
+06-18 06:37:22.733  1962  1990 I GnssLocationProvider: WakeLock released by handleMessage(ENABLE, 1, null)
+06-18 06:37:22.735  1962  1990 I GnssLocationProvider: No GNSS Satellite Blacklist interface available
+06-18 06:37:22.735  1962  1990 I GnssLocationProvider: restartRequests
+06-18 06:37:22.742  1806  1872 I OMXClient: IOmx service obtained
+06-18 06:37:22.743  1811  1851 I OMXMaster: makeComponentInstance(OMX.google.flac.encoder) in omx@1.0-service process
+06-18 06:37:22.748  2163  2163 I wpa_supplicant: rfkill: Cannot open RFKILL control device
+06-18 06:37:22.752  1806  1872 I OMXClient: IOmx service obtained
+06-18 06:37:22.752  1811  1851 I OMXMaster: makeComponentInstance(OMX.google.h264.decoder) in omx@1.0-service process
+06-18 06:37:22.766  2094  2094 I TransientFileCleaner: Deleting 0 files
+06-18 06:37:22.772  2153  2153 I WebViewLoader-: System.exit called, status: 0
+06-18 06:37:22.772  2153  2153 I AndroidRuntime: VM exiting with result code 0, cleanup skipped.

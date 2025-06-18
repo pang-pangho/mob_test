@@ -1,0 +1,57 @@
+=== 앱 크래시 상세 로그 ===
+앱 패키지: com.ldjSxw.heBbQd
+발생 시각: 2025-06-18 11:07:23
+크래시 유형: 안드로이드 런타임 오류
+크래시 라인: 06-17 11:14:25.535 27213 27213 D AndroidRuntime: Shutting down VM
+
+=== 컨텍스트 로그 (최근 50줄) ===
+06-17 11:13:56.243 24878 24900 I chatty  : uid=1000(system) android.bg expire 17 lines
+06-17 11:13:58.185  1856  1893 D hwcomposer: hw_composer sent 360 syncs in 60s
+06-17 11:14:00.794 24817 27196 I chatty  : uid=1041(audioserver) /system/bin/audioserver expire 1 line
+06-17 11:14:00.795 24817 10695 I chatty  : uid=1041(audioserver) Binder:24817_B expire 3 lines
+06-17 11:14:00.797 25706 24171 I chatty  : uid=10040 com.google.android.googlequicksearchbox:search expire 21 lines
+06-17 11:14:00.800 25706 25706 I chatty  : uid=10040 com.google.android.googlequicksearchbox:search expire 14 lines
+06-17 11:14:00.808 25706 17810 I chatty  : uid=10040 com.google.android.googlequicksearchbox:search expire 13 lines
+06-17 11:13:55.734 25706 24171 I chatty  : uid=10040 com.google.android.googlequicksearchbox:search identical 3 lines
+06-17 11:14:00.800 25706 24171 E ActivityThread: Failed to find provider info for com.google.android.apps.gsa.testing.ui.audio.recorded
+06-17 11:14:03.178  1815  1852 E storaged: getDiskStats failed with result NOT_SUPPORTED and size 0
+06-17 11:14:05.841 24817 27199 I chatty  : uid=1041(audioserver) /system/bin/audioserver expire 1 line
+06-17 11:14:05.841 24817 29062 I chatty  : uid=1041(audioserver) Binder:24817_5 expire 3 lines
+06-17 11:14:05.847 25706 24171 E ActivityThread: Failed to find provider info for com.google.android.apps.gsa.testing.ui.audio.recorded
+06-17 11:14:10.892 24817 27202 I chatty  : uid=1041(audioserver) /system/bin/audioserver expire 1 line
+06-17 11:14:10.892 24817 32226 I chatty  : uid=1041(audioserver) Binder:24817_8 expire 6 lines
+06-17 11:14:10.898 25706 25706 I chatty  : uid=10040 com.google.android.googlequicksearchbox:search expire 14 lines
+06-17 11:14:11.249 24878 25205 I chatty  : uid=1000(system) HwBinder:24878_ expire 12 lines
+06-17 11:14:11.249 24878 24900 I chatty  : uid=1000(system) android.bg expire 12 lines
+06-17 11:14:15.944 24817 27205 I chatty  : uid=1041(audioserver) /system/bin/audioserver expire 1 line
+06-17 11:14:15.953 25706 24171 I chatty  : uid=10040 com.google.android.googlequicksearchbox:search expire 20 lines
+06-17 11:14:20.992 24817 27208 I chatty  : uid=1041(audioserver) /system/bin/audioserver expire 1 line
+06-17 11:14:20.994 24817 10695 I chatty  : uid=1041(audioserver) Binder:24817_B expire 3 lines
+06-17 11:14:20.998 25706 25706 I chatty  : uid=10040 com.google.android.googlequicksearchbox:search expire 15 lines
+06-17 11:14:21.017 25706 11755 I chatty  : uid=10040 com.google.android.googlequicksearchbox:search expire 12 lines
+06-17 11:14:21.126  1937  1937 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-17 11:14:21.127  1937  1937 E netmgr  : WifiForwarder unable to open QEMU pipe: Invalid argument
+06-17 11:14:22.833  1561  1561 E SELinux : avc:  denied  { find } for interface=android.hardware.memtrack::IMemtrack pid=26955 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:hal_memtrack_hwservice:s0 tclass=hwservice_manager permissive=0
+06-17 11:14:22.834 26955 27210 E memtrack: Couldn't load memtrack module
+06-17 11:14:22.834 26955 27210 W android.os.Debug: failed to get memory consumption info: -1
+06-17 11:14:23.257 24878 25205 I chatty  : uid=1000(system) HwBinder:24878_ expire 12 lines
+06-17 11:14:23.258 24878 24900 I chatty  : uid=1000(system) android.bg expire 12 lines
+06-17 11:14:15.955 25706 24171 I chatty  : uid=10040 com.google.android.googlequicksearchbox:search identical 2 lines
+06-17 11:14:20.998 25706 24171 E ActivityThread: Failed to find provider info for com.google.android.apps.gsa.testing.ui.audio.recorded
+06-17 11:14:23.572 24878 24905 E BatteryExternalStatsWorker: no controller energy info supplied for wifi
+06-17 11:14:24.273 24878 25580 I ActivityManager: Killing 25409:com.android.keychain/1000 (adj 904): empty for 1800s
+06-17 11:14:24.274 24878 25580 I ActivityManager: Killing 25385:com.android.documentsui/u0a26 (adj 904): empty for 1800s
+06-17 11:14:24.274 24878 25580 I ActivityManager: Killing 24548:com.google.android.gms.ui/u0a12 (adj 906): empty for 1800s
+06-17 11:14:24.274 24878 24904 I chatty  : uid=1000(system) ActivityManager expire 14 lines
+06-17 11:14:24.325 24816 24816 I Zygote  : Process 25385 exited due to signal (9)
+06-17 11:14:24.325 24816 24816 I Zygote  : Process 25409 exited due to signal (9)
+06-17 11:14:24.334 24816 24816 I Zygote  : Process 24548 exited due to signal (9)
+06-17 11:14:25.268 24878 24538 I ActivityManager: Killing 25487:com.google.android.apps.docs/u0a48 (adj 906): empty for 1800s
+06-17 11:14:25.313 24816 24816 I Zygote  : Process 25487 exited due to signal (9)
+06-17 11:14:25.330 27213 27213 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+06-17 11:14:25.464 27213 27213 W app_process: Unexpected CPU variant for X86 using defaults: x86
+06-17 11:14:25.470 27213 27213 I app_process: The ClassLoaderContext is a special shared library.
+06-17 11:14:25.513 27213 27213 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+06-17 11:14:25.514 27213 27213 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=51362342, downTime=51362342, deviceId=-1, source=0x101 }
+06-17 11:14:25.532 27213 27213 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=51362342, downTime=51362342, deviceId=-1, source=0x101 }
+06-17 11:14:25.535 27213 27213 D AndroidRuntime: Shutting down VM

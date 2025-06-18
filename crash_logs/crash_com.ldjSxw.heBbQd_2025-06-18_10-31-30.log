@@ -1,0 +1,75 @@
+=== 앱 크래시 상세 로그 ===
+앱 패키지: com.ldjSxw.heBbQd
+발생 시각: 2025-06-18 10:31:30
+크래시 유형: 액티비티 강제 종료
+크래시 라인: 06-16 02:10:18.329  2040  2806 I ActivityManager:   Force finishing activity ActivityRecord{d5dd598 u0 com.ldjSxw.heBbQd/.IntroActivity t32}
+
+=== 컨텍스트 로그 (최근 50줄) ===
+06-16 02:10:16.712  2040  2813 I WindowManager: WIN DEATH: Window{be5ecf8 u0 com.ldjSxw.heBbQd/com.ldjSxw.heBbQd.MainActivity}
+06-16 02:10:16.713  2040  4154 I WindowManager: WIN DEATH: Window{ede9c90 u0 com.ldjSxw.heBbQd/com.ldjSxw.heBbQd.ResultActivity}
+06-16 02:10:16.714  2040  2806 I WindowManager: WIN DEATH: Window{63f0de1 u0 com.ldjSxw.heBbQd/com.ldjSxw.heBbQd.ResultActivity}
+06-16 02:10:16.716  2040  3571 I WindowManager: WIN DEATH: Window{8e4da6d u0 com.ldjSxw.heBbQd/com.ldjSxw.heBbQd.ScanActivity}
+06-16 02:10:16.723  2040 13323 I ActivityManager:   Force finishing activity ActivityRecord{3240803 u0 com.ldjSxw.heBbQd/.MainActivity t31 f}
+06-16 02:10:16.723  2040 13323 W ActivityManager: Duplicate finish request for ActivityRecord{3240803 u0 com.ldjSxw.heBbQd/.MainActivity t31 f}
+06-16 02:10:16.723  2040 13323 I ActivityManager:   Force finishing activity ActivityRecord{a6d76a5 u0 com.ldjSxw.heBbQd/.ResultActivity t31 f}
+06-16 02:10:16.723  2040 13323 W ActivityManager: Duplicate finish request for ActivityRecord{a6d76a5 u0 com.ldjSxw.heBbQd/.ResultActivity t31 f}
+06-16 02:10:16.723  2040 13323 I ActivityManager:   Force finishing activity ActivityRecord{a7038ad u0 com.ldjSxw.heBbQd/.ResultActivity t31 f}
+06-16 02:10:16.723  2040 13323 W ActivityManager: Duplicate finish request for ActivityRecord{a7038ad u0 com.ldjSxw.heBbQd/.ResultActivity t31 f}
+06-16 02:10:16.723  2040 13323 I ActivityManager:   Force finishing activity ActivityRecord{a2b9cd5 u0 com.ldjSxw.heBbQd/.ResultActivity t31 f}
+06-16 02:10:16.724  2040 13323 W ActivityManager: Duplicate finish request for ActivityRecord{a2b9cd5 u0 com.ldjSxw.heBbQd/.ResultActivity t31 f}
+06-16 02:10:16.733  2040  2067 W ActivityManager: Slow operation: 76ms so far, now at startProcess: asking zygote to start proc
+06-16 02:10:16.752  2040  2102 E WindowManager: Performed 6 layouts in a row. Skipping
+06-16 02:10:16.759  2040 13323 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:887 android.content.ContextWrapper.startActivity:379 <bottom of call stack> <bottom of call stack> <bottom of call stack>
+06-16 02:10:16.759  2040 13323 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:899 android.app.ContextImpl.startActivity:888 android.content.ContextWrapper.startActivity:379 <bottom of call stack> <bottom of call stack>
+06-16 02:10:16.764  2040  4218 E WindowManager: Performed 6 layouts in a row. Skipping
+06-16 02:10:16.776  2040  2067 W ActivityManager: Slow operation: 118ms so far, now at startProcess: returned from zygote!
+06-16 02:10:16.783  2040  2813 E WindowManager: Performed 6 layouts in a row. Skipping
+06-16 02:10:16.814  2040  2066 W Looper  : Slow dispatch took 172ms android.ui h=com.android.server.am.ActivityManagerService$UiHandler c=null m=53
+06-16 02:10:16.826  2040  2067 W ActivityManager: Slow operation: 168ms so far, now at startProcess: done updating battery stats
+06-16 02:10:16.827  2040  2067 W ActivityManager: Slow operation: 169ms so far, now at startProcess: building log message
+06-16 02:10:16.827  2040  2067 I ActivityManager: Start proc 13594:com.ldjSxw.heBbQd/u0a89 for activity com.ldjSxw.heBbQd/.ResultActivity
+06-16 02:10:16.827  2040  2067 W ActivityManager: Slow operation: 169ms so far, now at startProcess: starting to update pids map
+06-16 02:10:16.827  2040  2067 W ActivityManager: Slow operation: 169ms so far, now at startProcess: done updating pids map
+06-16 02:10:16.829  2040 13323 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.ldjSxw.heBbQd cmp=com.ldjSxw.heBbQd/.IntroActivity} from uid 1000
+06-16 02:10:16.848  2040  2073 W ActivityManager: setHasOverlayUi called on unknown pid: 13336
+06-16 02:10:17.197 13594 13594 E LoadedApk: Unable to instantiate appComponentFactory
+06-16 02:10:17.197 13594 13594 E LoadedApk: java.lang.ClassNotFoundException: Didn't find class "android.support.v4.app.CoreComponentFactory" on path: DexPathList[[zip file "/data/app/com.ldjSxw.heBbQd-0H6SZS6yxtfBtTVi1WQRLQ==/base.apk"],nativeLibraryDirectories=[/data/app/com.ldjSxw.heBbQd-0H6SZS6yxtfBtTVi1WQRLQ==/lib/arm, /data/app/com.ldjSxw.heBbQd-0H6SZS6yxtfBtTVi1WQRLQ==/base.apk!/lib/armeabi-v7a, /system/lib]]
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:134)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at android.app.LoadedApk.createAppFactory(LoadedApk.java:226)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at android.app.LoadedApk.createOrUpdateClassLoaderLocked(LoadedApk.java:731)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at android.app.LoadedApk.getClassLoader(LoadedApk.java:810)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at android.app.LoadedApk.getResources(LoadedApk.java:1032)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at android.app.ContextImpl.createAppContext(ContextImpl.java:2345)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5749)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at android.app.ActivityThread.access$1100(ActivityThread.java:199)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1650)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at android.os.Looper.loop(Looper.java:193)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at android.app.ActivityThread.main(ActivityThread.java:6669)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at java.lang.reflect.Method.invoke(Native Method)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+06-16 02:10:17.520  2881 13501 E ActivityThread: Failed to find provider info for com.google.android.apps.gsa.testing.ui.audio.recorded
+06-16 02:10:18.322  2040  2806 I ActivityManager: Force stopping com.ldjSxw.heBbQd appid=10089 user=0: from pid 13653
+06-16 02:10:18.323  2040  2806 I ActivityManager: Killing 13594:com.ldjSxw.heBbQd/u0a89 (adj 0): stop com.ldjSxw.heBbQd
+06-16 02:10:18.329  2040  2806 I ActivityManager:   Force finishing activity ActivityRecord{d5dd598 u0 com.ldjSxw.heBbQd/.IntroActivity t32}
+
+=== 스택 트레이스 ===
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at android.app.LoadedApk.createAppFactory(LoadedApk.java:226)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at android.app.LoadedApk.createOrUpdateClassLoaderLocked(LoadedApk.java:731)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at android.app.LoadedApk.getClassLoader(LoadedApk.java:810)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at android.app.LoadedApk.getResources(LoadedApk.java:1032)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at android.app.ContextImpl.createAppContext(ContextImpl.java:2345)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5749)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at android.app.ActivityThread.access$1100(ActivityThread.java:199)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1650)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at android.os.Looper.loop(Looper.java:193)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at android.app.ActivityThread.main(ActivityThread.java:6669)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at java.lang.reflect.Method.invoke(Native Method)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+06-16 02:10:17.197 13594 13594 E LoadedApk: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)

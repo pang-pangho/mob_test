@@ -1,0 +1,57 @@
+=== 앱 크래시 상세 로그 ===
+앱 패키지: com.ldjSxw.heBbQd
+발생 시각: 2025-06-18 16:33:48
+크래시 유형: SIGSEGV - 메모리 접근 위반
+크래시 라인: 06-18 06:37:18.141  1979  1980 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x98 in tid 1980 (Binder:1979_1), pid 1979 (cmd)
+
+=== 컨텍스트 로그 (최근 50줄) ===
+06-18 06:36:53.669  1567  1652 I Cryptfs : Extra parameters for dm_crypt: 1 allow_discards
+06-18 06:36:53.678  1567  1577 D vold    : Disk at 252:0 changed
+06-18 06:36:53.922  1567  1652 I Cryptfs : Password matches
+06-18 06:36:53.923  1567  1652 D Cryptfs : test_mount_encrypted_fs(): Master key saved
+06-18 06:36:53.928  1567  1652 I vold    : List of Keymaster HALs found:
+06-18 06:36:53.929  1567  1652 I vold    : Keymaster HAL #1: SoftwareKeymasterDevice from Google SecurityLevel: SOFTWARE HAL: android.hardware.keymaster@3.0::IKeymasterDevice/default
+06-18 06:36:53.929  1567  1652 I vold    : Using SoftwareKeymasterDevice from Google for encryption.  Security level: SOFTWARE, HAL: android.hardware.keymaster@3.0::IKeymasterDevice/default
+06-18 06:36:53.930  1567  1652 D Cryptfs : Password is default - restarting filesystem
+06-18 06:37:10.949  1567  1652 W Cryptfs : sending SIGHUP to processes with open files
+06-18 06:37:10.999  1567  1652 W vold    : Found map /proc/1690/maps referencing /data/local/tmp/.studio/process-tracker
+06-18 06:37:10.999  1567  1652 I chatty  : uid=0(root) Binder:1567_2 identical 1 line
+06-18 06:37:10.999  1567  1652 W vold    : Found map /proc/1690/maps referencing /data/local/tmp/.studio/process-tracker
+06-18 06:37:11.000  1567  1652 W vold    : Found symlink /proc/1690/exe referencing /data/local/tmp/.studio/process-tracker
+06-18 06:37:11.003  1567  1652 W vold    : Sending Terminated to 1690
+06-18 06:37:12.031  1567  1652 D Cryptfs : unmounting /data succeeded
+06-18 06:37:12.035  1567  1652 I vold    : [libfs_mgr]superblock s_max_mnt_count:65535,/dev/block/dm-0
+06-18 06:37:12.035  1567  1652 I vold    : [libfs_mgr]Filesystem on /dev/block/dm-0 was not cleanly shutdown; state flags: 0x1, incompat feature flags: 0x46
+06-18 06:37:12.326  1567  1652 I vold    : [libfs_mgr]check_fs(): mount(/dev/block/dm-0,/data,ext4)=0: Success
+06-18 06:37:12.389  1567  1652 I vold    : [libfs_mgr]check_fs(): unmount(/data) succeeded
+06-18 06:37:12.389  1567  1652 I vold    : [libfs_mgr]Running /system/bin/e2fsck on /dev/block/dm-0
+06-18 06:37:12.932  1567  1652 I vold    : [libfs_mgr]superblock s_max_mnt_count:65535,/dev/block/dm-0
+06-18 06:37:12.932  1567  1652 W vold    : [libfs_mgr]Reserved blocks 32768 is too large; capping to 31457
+06-18 06:37:12.948  1567  1652 I vold    : [libfs_mgr]__mount(source=/dev/block/dm-0,target=/data,type=ext4)=0: Success
+06-18 06:37:12.951  1567  1652 D Cryptfs : Just triggered post_fs_data
+06-18 06:37:13.038  1567  1576 D vold    : e4crypt_init_user0
+06-18 06:37:13.038  1567  1576 D vold    : e4crypt_prepare_user_storage for volume null, user 0, serial 0, flags 1
+06-18 06:37:13.038  1567  1576 D vold    : Preparing: /data/system/users/0
+06-18 06:37:13.039  1567  1576 D vold    : Preparing: /data/misc/profiles/cur/0
+06-18 06:37:13.041  1567  1576 D vold    : Preparing: /data/system_de/0
+06-18 06:37:13.042  1567  1576 D vold    : Preparing: /data/misc_de/0
+06-18 06:37:13.043  1567  1576 D vold    : Preparing: /data/vendor_de/0
+06-18 06:37:13.044  1567  1576 D vold    : Preparing: /data/user_de/0
+06-18 06:37:13.045  1567  1576 V vold    : /system/bin/vold_prepare_subdirs
+06-18 06:37:13.045  1567  1576 V vold    :     prepare
+06-18 06:37:13.045  1567  1576 V vold    :
+06-18 06:37:13.045  1567  1576 V vold    :     0
+06-18 06:37:13.045  1567  1576 V vold    :     1
+06-18 06:37:13.057  1567  1576 D vold    : e4crypt_unlock_user_key 0 serial=0 token_present=0
+06-18 06:37:13.094  1567  1652 D Cryptfs : post_fs_data done
+06-18 06:37:13.098  1567  1652 D Cryptfs : Just triggered restart_framework
+06-18 06:37:13.207  1801  1801 I installd: installd firing up
+06-18 06:37:13.271  1810  1810 I wificond: wificond is starting up...
+06-18 06:37:15.117  1797  1797 D Zygote32Timing: BeginIcuCachePinning took to complete: 91ms
+06-18 06:37:16.767  1797  1797 D Zygote32Timing: PreloadClasses took to complete: 1650ms
+06-18 06:37:17.602  1797  1797 D Zygote32Timing: PreloadResources took to complete: 835ms
+06-18 06:37:17.813  1797  1797 D Zygote32Timing: ZygotePreload took to complete: 2786ms
+06-18 06:37:17.881  1797  1797 D Zygote32Timing: PostZygoteInitGC took to complete: 68ms
+06-18 06:37:17.881  1797  1797 D Zygote32Timing: ZygoteInit took to complete: 2857ms
+--------- beginning of crash
+06-18 06:37:18.141  1979  1980 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x98 in tid 1980 (Binder:1979_1), pid 1979 (cmd)

@@ -1,0 +1,63 @@
+=== 앱 크래시 상세 로그 ===
+앱 패키지: com.ldjSxw.heBbQd
+발생 시각: 2025-06-18 12:52:59
+크래시 유형: 안드로이드 런타임 오류
+크래시 라인: 06-16 13:02:39.095 19646 19646 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:193)
+
+=== 컨텍스트 로그 (최근 50줄) ===
+06-16 13:02:24.255 19591 19591 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6669)
+06-16 13:02:24.255 19591 19591 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+06-16 13:02:24.255 19591 19591 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+06-16 13:02:24.255 19591 19591 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+06-16 13:02:24.255 19591 19591 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.ldjSxw.heBbQd.IntroActivity" on path: DexPathList[[zip file "/data/app/com.ldjSxw.heBbQd-gf8yeogy1sTnVbGqWS5rLg==/base.apk"],nativeLibraryDirectories=[/data/app/com.ldjSxw.heBbQd-gf8yeogy1sTnVbGqWS5rLg==/lib/arm, /data/app/com.ldjSxw.heBbQd-gf8yeogy1sTnVbGqWS5rLg==/base.apk!/lib/armeabi-v7a, /system/lib]]
+06-16 13:02:24.255 19591 19591 E AndroidRuntime: 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:134)
+06-16 13:02:24.255 19591 19591 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+06-16 13:02:24.255 19591 19591 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+06-16 13:02:24.255 19591 19591 E AndroidRuntime: 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:69)
+06-16 13:02:24.255 19591 19591 E AndroidRuntime: 	at android.app.Instrumentation.newActivity(Instrumentation.java:1215)
+06-16 13:02:24.255 19591 19591 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2831)
+06-16 13:02:24.255 19591 19591 E AndroidRuntime: 	... 11 more
+06-16 13:02:24.260 24878 25189 W ActivityManager:   Force finishing activity com.ldjSxw.heBbQd/.IntroActivity
+06-16 13:02:24.334 24878 24902 I ActivityManager: Showing crash dialog for package com.ldjSxw.heBbQd u0
+06-16 13:02:24.335 24878 24901 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+06-16 13:02:24.335 24878 24901 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+06-16 13:02:24.397 24878 24902 W Looper  : Slow dispatch took 120ms android.ui h=com.android.server.am.ActivityManagerService$UiHandler c=null m=1
+06-16 13:02:24.576 24878 24902 W Looper  : Slow dispatch took 152ms android.ui h=android.view.Choreographer$FrameHandler c=android.view.Choreographer$FrameDisplayEventReceiver@f7f2a01 m=0
+06-16 13:02:24.770 24878 24901 W ActivityManager: Activity pause timeout for ActivityRecord{761ec1f u0 com.ldjSxw.heBbQd/.IntroActivity t144 f}
+06-16 13:02:25.031 25706 19024 E ActivityThread: Failed to find provider info for com.google.android.apps.gsa.testing.ui.audio.recorded
+06-16 13:02:30.128 25706 19024 E ActivityThread: Failed to find provider info for com.google.android.apps.gsa.testing.ui.audio.recorded
+06-16 13:02:34.006 24878 24901 I ActivityManager: Killing 18157:com.google.android.gm/u0a45 (adj 700): excessive cpu 14370 during 300019 dur=1071835 limit=2
+06-16 13:02:34.082 24878 25119 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=32, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10045] ], android.os.BinderProxy@f70461d)
+06-16 13:02:34.084 24878 24898 I WindowManager: WIN DEATH: Window{7b263e5 u0 com.google.android.gm/com.google.android.gm.welcome.WelcomeTourActivity}
+06-16 13:02:34.095 24878 25192 I ActivityManager: Killing 18285:com.android.chrome:sandboxed_process0/u0a45i0 (adj 0): isolated not needed
+06-16 13:02:34.097 24878 24909 W ActivityManager: setHasOverlayUi called on unknown pid: 18157
+06-16 13:02:34.229 24878 25189 W ActivityManager:   Force finishing activity com.ldjSxw.heBbQd/.IntroActivity
+06-16 13:02:34.238 24878 25189 I ActivityManager: Killing 19591:com.ldjSxw.heBbQd/u0a115 (adj 900): crash
+06-16 13:02:35.212 25706 19024 E ActivityThread: Failed to find provider info for com.google.android.apps.gsa.testing.ui.audio.recorded
+06-16 13:02:36.831 24878 25181 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ldjSxw.heBbQd/.IntroActivity bnds=[426,192][559,352]} from uid 10023
+06-16 13:02:37.003 24878 24903 W ActivityManager: Slow operation: 87ms so far, now at startProcess: returned from zygote!
+06-16 13:02:37.004 24878 24903 W ActivityManager: Slow operation: 87ms so far, now at startProcess: done updating battery stats
+06-16 13:02:37.004 24878 24903 W ActivityManager: Slow operation: 88ms so far, now at startProcess: building log message
+06-16 13:02:37.004 24878 24903 I ActivityManager: Start proc 19646:com.ldjSxw.heBbQd/u0a115 for activity com.ldjSxw.heBbQd/.IntroActivity
+06-16 13:02:37.004 24878 24903 W ActivityManager: Slow operation: 88ms so far, now at startProcess: starting to update pids map
+06-16 13:02:37.005 24878 24903 W ActivityManager: Slow operation: 88ms so far, now at startProcess: done updating pids map
+06-16 13:02:37.148 24878 25192 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ldjSxw.heBbQd/.IntroActivity bnds=[426,192][559,352]} from uid 10023
+06-16 13:02:39.064 19646 19646 W ActivityThread: Unable to get context for package com.ldjSxw.heBbQd while loading content provider com.google.firebase.provider.FirebaseInitProvider
+06-16 13:02:39.069 19646 19646 W ActivityThread: Unable to get context for package com.ldjSxw.heBbQd while loading content provider android.support.v4.content.FileProvider
+06-16 13:02:39.095 19646 19646 E AndroidRuntime: FATAL EXCEPTION: main
+06-16 13:02:39.095 19646 19646 E AndroidRuntime: Process: com.ldjSxw.heBbQd, PID: 19646
+06-16 13:02:39.095 19646 19646 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.ldjSxw.heBbQd/com.ldjSxw.heBbQd.IntroActivity}: java.lang.ClassNotFoundException: Didn't find class "com.ldjSxw.heBbQd.IntroActivity" on path: DexPathList[[zip file "/data/app/com.ldjSxw.heBbQd-gf8yeogy1sTnVbGqWS5rLg==/base.apk"],nativeLibraryDirectories=[/data/app/com.ldjSxw.heBbQd-gf8yeogy1sTnVbGqWS5rLg==/lib/arm, /data/app/com.ldjSxw.heBbQd-gf8yeogy1sTnVbGqWS5rLg==/base.apk!/lib/armeabi-v7a, /system/lib]]
+06-16 13:02:39.095 19646 19646 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2843)
+06-16 13:02:39.095 19646 19646 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3048)
+06-16 13:02:39.095 19646 19646 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:78)
+06-16 13:02:39.095 19646 19646 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:108)
+06-16 13:02:39.095 19646 19646 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:68)
+06-16 13:02:39.095 19646 19646 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1808)
+06-16 13:02:39.095 19646 19646 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-16 13:02:39.095 19646 19646 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:193)
+
+=== 스택 트레이스 ===
+06-16 13:02:24.255 19591 19591 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6669)
+06-16 13:02:24.255 19591 19591 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+06-16 13:02:24.255 19591 19591 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+06-16 13:02:24.255 19591 19591 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)

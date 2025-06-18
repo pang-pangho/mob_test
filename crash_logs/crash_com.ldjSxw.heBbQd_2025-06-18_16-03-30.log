@@ -1,0 +1,57 @@
+=== 앱 크래시 상세 로그 ===
+앱 패키지: com.ldjSxw.heBbQd
+발생 시각: 2025-06-18 16:03:30
+크래시 유형: 안드로이드 런타임 오류
+크래시 라인: 06-18 06:37:22.772  2153  2153 I AndroidRuntime: VM exiting with result code 0, cleanup skipped.
+
+=== 컨텍스트 로그 (최근 50줄) ===
+06-18 06:37:22.651  1629  1629 E GnssHAL_GnssInterface: getExtensionGnssConfiguration: GnssConfiguration interface not implemented by HAL
+06-18 06:37:22.651  1629  1629 E GnssHAL_GnssInterface: getExtensionGnssGeofencing: GnssGeofencing interface not implemented by HAL
+06-18 06:37:22.651  1629  1629 E GnssHAL_GnssInterface: gnss flp hw_get_module failed: -2
+06-18 06:37:22.651  1629  1629 E GnssHAL_GnssInterface: getExtensionGnssBatching: GnssBatching interface is not implemented by HAL
+06-18 06:37:22.669  1962  1962 W LocationProviderProxy-network: Odd, no component found for service com.android.location.service.v3.NetworkLocationProvider
+06-18 06:37:22.672  1962  1962 W GeocoderProxy: Odd, no component found for service com.android.location.service.GeocodeProvider
+06-18 06:37:22.674  1962  1962 W GeofenceProxy: Odd, no component found for service com.android.location.service.GeofenceProvider
+06-18 06:37:22.674  1962  1962 D LocationManagerService: Hardware Activity-Recognition not supported.
+06-18 06:37:22.675  1962  1962 W ActivityRecognitionProxy: Odd, no component found for service com.android.location.service.ActivityRecognitionProvider
+06-18 06:37:22.677  1962  1991 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.location.PROVIDERS_CHANGED flg=0x10 } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+06-18 06:37:22.678  1962  1991 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.location.MODE_CHANGED flg=0x10 } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+06-18 06:37:22.688  1962  1962 D SystemServerTiming: MakeLocationServiceReady took to complete: 58ms
+06-18 06:37:22.688  1962  1962 I SystemServer: MakeCountryDetectionServiceReady
+06-18 06:37:22.689  1962  1962 D SystemServerTiming: MakeCountryDetectionServiceReady took to complete: 1ms
+06-18 06:37:22.689  1962  1962 I SystemServer: MakeNetworkTimeUpdateReady
+06-18 06:37:22.689  1806  1872 I OMXClient: IOmx service obtained
+06-18 06:37:22.690  1811  1851 I OMXMaster: makeComponentInstance(OMX.google.amrnb.encoder) in omx@1.0-service process
+06-18 06:37:22.691  1962  1962 D ConnectivityService: requestNetwork for uid/pid:1000/1962 NetworkRequest [ TRACK_DEFAULT id=6, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 1000] ]
+06-18 06:37:22.693  1962  1962 D SystemServerTiming: MakeNetworkTimeUpdateReady took to complete: 4ms
+06-18 06:37:22.693  1962  1962 I SystemServer: MakeCommonTimeManagementServiceReady
+06-18 06:37:22.695  1962  1962 D SystemServerTiming: MakeCommonTimeManagementServiceReady took to complete: 2ms
+06-18 06:37:22.695  1962  1962 I SystemServer: MakeInputManagerServiceReady
+06-18 06:37:22.707  1962  1962 D SystemServerTiming: MakeInputManagerServiceReady took to complete: 11ms
+06-18 06:37:22.707  1962  1962 I SystemServer: MakeTelephonyRegistryReady
+06-18 06:37:22.707  1962  1962 D SystemServerTiming: MakeTelephonyRegistryReady took to complete: 0ms
+06-18 06:37:22.707  1962  1962 I SystemServer: MakeMediaRouterServiceReady
+06-18 06:37:22.707  1962  1962 D SystemServerTiming: MakeMediaRouterServiceReady took to complete: 0ms
+06-18 06:37:22.707  1962  1962 I SystemServer: MakeMmsServiceReady
+06-18 06:37:22.707  1962  1962 I MmsServiceBroker: Delay connecting to MmsService until an API is called
+06-18 06:37:22.708  1962  1962 D SystemServerTiming: MakeMmsServiceReady took to complete: 0ms
+06-18 06:37:22.708  1962  1962 I SystemServer: IncidentDaemonReady
+06-18 06:37:22.709  1629  1629 W GnssHAL_GnssInterface: setCallback called more than once. Unexpected unless test.
+06-18 06:37:22.709  1962  1962 D SystemServerTiming: IncidentDaemonReady took to complete: 1ms
+06-18 06:37:22.710  1962  1962 I SystemServiceManager: Calling onStartUser u0
+06-18 06:37:22.711  1962  2052 I chatty  : uid=1000(system) InputReader expire 2 lines
+06-18 06:37:22.711  2163  2163 I wpa_supplicant: Processing hidl events on FD 3
+06-18 06:37:22.721  2106  2106 W AlarmManager: Unrecognized alarm listener com.android.systemui.keyguard.-$$Lambda$KeyguardSliceProvider$IhzByd8TsqFuOrSyuGurVskyPLo@6baf332
+06-18 06:37:22.728  1962  1962 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.android.settings/.FallbackHome} from uid 0
+06-18 06:37:22.729  2163  2163 I wpa_supplicant: Successfully initialized wpa_supplicant
+06-18 06:37:22.729  1806  1872 I OMXClient: IOmx service obtained
+06-18 06:37:22.729  1811  1851 I OMXMaster: makeComponentInstance(OMX.google.amrwb.encoder) in omx@1.0-service process
+06-18 06:37:22.731  2094  2094 I TransientFileCleaner: Deleting 0 files
+06-18 06:37:22.742  1806  1872 I OMXClient: IOmx service obtained
+06-18 06:37:22.743  1811  1851 I OMXMaster: makeComponentInstance(OMX.google.flac.encoder) in omx@1.0-service process
+06-18 06:37:22.748  2163  2163 I wpa_supplicant: rfkill: Cannot open RFKILL control device
+06-18 06:37:22.752  1806  1872 I OMXClient: IOmx service obtained
+06-18 06:37:22.752  1811  1851 I OMXMaster: makeComponentInstance(OMX.google.h264.decoder) in omx@1.0-service process
+06-18 06:37:22.766  2094  2094 I TransientFileCleaner: Deleting 0 files
+06-18 06:37:22.772  2153  2153 I WebViewLoader-: System.exit called, status: 0
+06-18 06:37:22.772  2153  2153 I AndroidRuntime: VM exiting with result code 0, cleanup skipped.
